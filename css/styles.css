@@ -1,0 +1,31 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#color_ball {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    appearance: square-button;
+    width: 44px;
+    height: 23px;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(74, 74, 74));
+    cursor: default;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
+    border-image: initial;
+    padding: 20px 10px;
+    border-radius: 50px;
+    margin-top: 10px;
+    border-color: rgb((), green, blue);
+}
+
+#input-color {
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+#btnReset {
+    padding-top: 7px;
+    border-radius: 5px;
+}
